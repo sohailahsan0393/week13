@@ -2,14 +2,14 @@ name: wf
 on: 
  pull_requests:
      branches:
-       -develop
+       - develop
  push:
    branches:
-      -develop
+      - develop
 jobs:
   linting-jobs:
      runs-on: ubuntu-latest
-     step:
+     steps:
       - name: Welcome step
         run:  echo "something"
       - name: checkout repo
