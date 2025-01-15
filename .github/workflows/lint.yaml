@@ -10,7 +10,7 @@ jobs:
   linting-jobs:
      runs-on: ubuntu-latest
      steps:
-      - name: Welcome step
+      - name: Welcome step 
         run:  echo "something"
       - name: checkout repo
         uses: actions/checkout@v4
